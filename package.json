@@ -1,8 +1,11 @@
 {
   "name": "intro-web-components",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "collection of reusable components that can be used to build web applications",
+  "files": [
+    "index.js",
+    "src/intro"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "storybook dev -p 6006",
