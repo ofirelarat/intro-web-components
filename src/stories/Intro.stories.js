@@ -5,7 +5,8 @@ import { Intro } from '../intro';
 export default {
   title: 'Example/Intro',
   tags: ['autodocs'],
-  render: (args) => html`<intro-container context='btn-boarding'><button>on boarding btn</button></intro-container> The button will appear only on first time`,
+  render: (args) => html`<intro-container context='btn-boarding'><button>on boarding btn</button></intro-container>
+   The button will appear only on first time, remove it from local-storage if you would like to see it`,
 };
 
 // More on writing stories with args: https://storybook.js.org/docs/web-components/writing-stories/args
