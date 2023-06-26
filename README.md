@@ -43,14 +43,9 @@ The `intro-container` component is a container component designed to facilitate 
 
 ```jsx
 import React from 'react';
+import 'intro-web-components'; // Import the intro-web-components package
 
-const IntroContainer = () => {
-  React.useEffect(() => {
-    // Access the intro-container element and set the context attribute
-    const introContainer = document.querySelector('intro-container');
-    introContainer.setAttribute('context', 'myContext');
-  }, []);
-
+const IntroContainer = () => {/
   return (
     <div>
       {/* Your other React components */}
@@ -103,3 +98,23 @@ export default IntroContainer;
 </body>
 </html>
 ```
+
+
+### Exploring with Storybook
+
+The repository for the `intro-web-components` package includes Storybook, a development environment for UI components. You can use Storybook to explore the available web components, view their different states, and interact with them in an isolated environment. To get started with Storybook, follow these steps:
+
+1. Ensure that you have the `intro-web-components` package installed in your project.
+
+2. Open your terminal or command prompt.
+
+3. Navigate to the root directory of the `intro-web-components` project.
+
+4. Run the following command to start the Storybook server:
+`npm run storybook`
+
+5. Once the server starts, you can access the Storybook interface in your browser at the provided URL (e.g., http://localhost:6006).
+
+6. Explore the available components, their documentation, and interact with them to understand their functionality and usage.
+
+Storybook provides a convenient way to visualize and experiment with the web components provided by the `intro-web-components` package.
