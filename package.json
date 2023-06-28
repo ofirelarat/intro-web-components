@@ -1,7 +1,11 @@
 {
   "name": "intro-web-components",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "collection of reusable components that can be used to build web applications",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ofirelarat/intro-web-components.git"
+  },
   "files": [
     "index.js",
     "src/intro"
@@ -11,7 +15,7 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
-  "author": "",
+  "author": "Ofir Elarat",
   "license": "ISC",
   "devDependencies": {
     "@storybook/addon-essentials": "^7.0.23",
